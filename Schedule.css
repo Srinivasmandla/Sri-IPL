@@ -1,0 +1,354 @@
+body {
+    border: 2px solid;
+    background: radial-gradient(rgb(190, 189, 189), rgb(57, 199, 234), rgb(10, 81, 143));
+}
+
+/* page Screen Sizes Adjects */
+.page {
+    border: 4px solid white;
+    margin: 120px 100px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+@media (max-width:400px) {
+    .page {
+        border: none;
+        margin: 35px 3px;
+    }
+}
+
+@media (min-width:400px) and (max-width:667px) {
+    .page {
+        margin: 100px 10px;
+    }
+}
+
+@media (min-width:667px) and (max-width:997px) {
+    .page {
+        margin: 100px 60px;
+    }
+}
+
+@media (min-width:977px) and (max-width:1440px) {
+    .page {
+        margin: 120px 100px;
+    }
+}
+
+/*1st- Navigation Bar Section  */
+.nav-title{
+    color: white;
+    font-weight: bold;
+    font-family: fantasy; 
+    font-size: 30px;
+}
+.nav-item>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-item>a:hover {
+    color: rgb(249, 106, 54) !important;
+}
+
+/* 1st Content shedeule 
+            - header  */
+.schedule-section-1 {
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+.section-2{
+    border: 2px solid;
+}
+.schedule-header {
+    background-color: rgb(41, 40, 40);
+    height: auto;
+}
+
+.schedule-header span {
+    color: rgb(255, 115, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 6px;
+}
+
+.image-middletext h5 {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.image-middletext p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.preseason-text {
+    border: 2px solid;
+}
+
+.preseason-text h5 {
+    color: rgb(7, 100, 186);
+    padding-top: 30px;
+    font-weight: 800;
+}
+
+.preseason-text h6 {
+    margin-top: 10px;
+    color: rgb(12, 103, 200);
+    font-size: 18px;
+    font-family: arial;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.preseason-text p {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(98, 97, 97);
+    margin-bottom: 0px;
+}
+@media (max-width:368px){
+    .image-middletext p{
+        font-size: 11px;
+    }
+    .preseason-text >.col-3{
+        padding: 2px ;
+    }
+    .preseason-text h5 {
+        font-weight: 800;
+        font-size: 15px ;
+    }
+    
+    .preseason-text h6 {
+        font-size: 11px;
+    }
+    
+    .preseason-text p {
+        font-size: 9px;
+    }
+}
+@media(max-width:575px){
+    .right-content{
+        border-bottom: 8px solid white !important;
+    }
+    .right-game-schedule {
+        border-bottom: 8px solid white !important;
+    }
+}
+/* 1st right side Content 
+                    - Latest News */
+.right-content {
+    display: grid;
+    padding: 0px !important;
+    border: 2px solid;
+}
+
+.right-content>div {
+    border-bottom: 1px dashed whitesmoke;
+    padding-left: 15px;
+}
+
+.latest-news {
+    background-color: rgb(255, 128, 0);
+}
+
+.latest-news>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 20px;
+}
+
+.news-lists {
+    background-color: black;
+}
+
+.news-lists>a {
+    color: whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.news-lists>a:hover {
+    color: rgb(255, 143, 0);
+    text-decoration: underline;
+}
+
+.news-lists>p {
+    margin: 0px;
+    font-family: arial;
+    font-size: 12px;
+    color: rgb(160, 156, 156);
+    padding-left: 10px;
+}
+
+@media(min-width:576px) and (max-width:835px){
+    .news-lists>a {
+        font-size: 12.5px;
+        font-weight: 600;
+    }
+    .news-lists>p {
+        font-size: 11px;
+        
+    }
+}
+
+/* 2nd-Content Game Schedule 
+- right Side Text */
+.right-game-schedule {
+    display: grid;
+    border: 2px solid;
+}
+
+.right-game-schedule>div {
+    padding-left: 20px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+
+}
+
+.right-game-schedule span {
+    color: black;
+}
+
+.game-schedule>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.game-lists a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.game-lists a:hover {
+    color: rgb(255, 143, 0);
+    text-decoration: underline;
+}
+
+.game-lists p {
+    font-family: arial;
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: rgb(160, 156, 156);
+}
+
+.game-lists-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 700;
+    text-align: end;
+}
+
+
+/* 2nd Right side content 
+            - Latest tweets */
+
+.right-latest-tweets {
+    border: 2px solid;
+    display: grid;
+    padding: 0px !important;
+}
+
+.right-latest-tweets>div {
+    padding-left: 20px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+}
+
+.latest-tweets>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+}
+
+.tweets-list a {
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 13px;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.tweets-list a:hover {
+    color: rgb(255, 160, 0);
+}
+
+.tweets-list-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+}
+
+
+
+
+/* 3rd Content Footer
+                 - End of the Titles */
+.footer {
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 7px;
+    background-color: rgb(46, 45, 45);
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgb(0, 183, 255);
+
+}
+
+.footer div {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer a:hover {
+    color: rgb(255, 98, 0);
+}
+
+.footer p {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer span {
+    color: rgb(255, 115, 0);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer i {
+    color: rgb(154, 152, 152);
+}
+
+.footer i:hover {
+    color: rgb(245, 124, 49);
+}

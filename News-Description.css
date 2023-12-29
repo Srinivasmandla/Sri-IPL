@@ -1,0 +1,335 @@
+body {
+    border: 2px solid;
+    background: radial-gradient(rgb(190, 189, 189), rgb(57, 199, 234), rgb(10, 81, 143));
+}
+
+/* page Screen Sizes Adjects */
+.page {
+    border: 4px solid white;
+    margin: 120px 100px;
+    padding: 2px;
+    background-color: whitesmoke;
+
+}
+
+@media (max-width:400px) {
+    .page {
+        margin: 35px 3px;
+    }
+}
+
+@media (min-width:400px) and (max-width:667px) {
+    .page {
+        margin: 100px 10px;
+    }
+}
+
+@media (min-width:667px) and (max-width:997px) {
+    .page {
+        margin: 100px 60px;
+    }
+}
+
+@media (min-width:977px) and (max-width:1440px) {
+    .page {
+        margin: 120px 100px;
+    }
+}
+
+/*1st- Navigation Bar Section  */
+.nav-title{
+    color: white;
+    font-weight: bold;
+    font-family: fantasy; 
+    font-size: 30px;
+}
+.nav-item>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-item>a:hover {
+    color: rgb(249, 106, 54) !important;
+}
+
+/* 1st Content in News 
+                 - news cards */
+.news-section-1 .col-xs-12 {
+    border: 2.5px solid;
+}
+
+.news-header {
+    height: 50px;
+    background-color: black;
+
+}
+
+.news-header>i {
+    position: relative;
+    top: 20px;
+}
+
+.news-header>span {
+    position: relative;
+    left: 30px;
+    bottom: 2px;
+    font-family: fantasy;
+    font-size: 30px !important;
+    color: orangered;
+}
+
+.back-button>button {
+    background-color: rgb(255, 111, 0);
+    color: whitesmoke;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.back-button>button:hover{
+   background-color: rgb(254, 168, 70);
+}
+.image-downside-text h4 {
+    font-family: Arial;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(6, 117, 177);
+    margin-bottom: 2px;
+}
+
+.image-downside-text h6 {
+    font-weight: 600;
+    color: rgb(93, 92, 92);
+    font-size: 14px;
+}
+
+.image-downside-text h6>span {
+    color: rgb(255, 102, 0);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+/* 1st right side Content 
+                    - Latest News */
+.right-content {
+    display: grid;
+    padding: 0px !important;
+    border: 2px solid;
+}
+
+.right-content>div {
+    border-bottom: 1px dashed whitesmoke;
+    padding-left: 15px;
+}
+
+.latest-news {
+    background-color: rgb(255, 128, 0);
+}
+
+.latest-news>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 20px;
+}
+
+.news-lists {
+    background-color: black;
+}
+
+.news-lists>a {
+    color: whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight:700 ;
+    text-transform: uppercase;
+}
+
+.news-lists>a:hover {
+    color: rgb(255, 143, 0);
+    text-decoration: underline;
+}
+
+.news-lists>p {
+    margin: 0px;
+    font-family: arial;
+    font-size: 11px;
+    color: rgb(160, 156, 156);
+    padding-left: 10px;
+}
+
+
+/* 2nd Content Paragraphs
+                - Content */
+.paragraphs-2 h5 {
+    text-transform: uppercase;
+    color: rgb(13, 115, 165);
+    font-weight: 700;
+}
+
+.paragraphs-2 p {
+    font-family: arial;
+    font-size: 17.5px;
+}
+
+
+.news-section-1 h6 {
+    color: rgb(15, 109, 160);
+    font-weight: 700;
+}
+
+
+/* 2nd-Content Game Schedule 
+            - right Side Text  */
+.right-game-schedule {
+    display: grid;
+}
+
+.right-game-schedule>div {
+    padding-left: 20px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+
+}
+
+.right-game-schedule span {
+    color: black;
+}
+
+.game-schedule>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.game-lists a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.game-lists a:hover {
+    color: rgb(255, 143, 0);
+    text-decoration: underline;
+}
+
+.game-lists p {
+    font-family: arial;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 11px;
+    color: rgb(160, 156, 156);
+}
+
+.game-lists-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+
+}
+
+
+/* 3rd Right side content 
+                        - Latest tweets */
+.right-latest-tweets {
+    border: 2px solid;
+    display: grid;
+}
+
+.right-latest-tweets {
+    padding: 0px !important;
+}
+
+.latest-tweets>span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.right-latest-tweets>div {
+    padding-left: 20px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+}
+
+
+.tweets-list a {
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 13px;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.tweets-list a:hover {
+    color: rgb(255, 163, 0);
+}
+
+.tweets-list-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+}
+
+
+
+
+/* 4th Content Footer
+                 - End of the Titles */
+.footer {
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 7px;
+    background-color: rgb(46, 45, 45);
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgb(0, 183, 255);
+
+}
+
+.footer div {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer a:hover {
+    color: rgb(255, 98, 0);
+}
+
+.footer p {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer span {
+    color: rgb(255, 115, 0);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer i {
+    color: rgb(154, 152, 152);
+}
+
+.footer i:hover {
+    color: rgb(245, 124, 49);
+}
